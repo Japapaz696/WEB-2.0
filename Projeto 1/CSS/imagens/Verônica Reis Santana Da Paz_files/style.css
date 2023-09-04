@@ -1,0 +1,74 @@
+@charset "UTF-8";
+  @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600;700&family=PT+Serif&display=swap');
+  @media screen and (min-width:400px) and (max-width:749px){
+    body{
+    text-align: center;
+    color: rgb(14, 13, 13);
+    background: url(imagens/rosa.jpg) no-repeat;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'PT Serif', serif;
+
+}
+p{
+    position: relative;
+    bottom: 239px;
+}
+h2,h4{
+    position: relative;
+    bottom: 224px; 
+}
+.imagen{
+   display: block;
+   position: relative;
+   bottom: 200px;
+   left: 10px;
+}
+img{
+    padding: 10px;
+}
+.v{
+    position: relative;
+    right: 43px;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    top: 850px;
+}
+
+  }
+  @media screen and (min-width:749px){
+    body{
+        text-align: center;
+        color: rgb(14, 13, 13);
+        background: url(imagens/rosa.jpg) no-repeat;
+        font-family: 'Edu SA Beginner', cursive;
+        font-family: 'PT Serif', serif;
+    
+    }
+    p{
+        position: relative;
+        bottom: 239px;
+    }
+    h2,h4{
+        position: relative;
+        bottom: 224px; 
+    }
+    .imagen{
+       display: inline-block;
+       position: relative;
+       bottom: 200px;
+       left: 10px;
+    }
+    img{
+        padding: 10px;
+    }
+    .v{
+        position: relative;
+        
+    }
+    .rodape{
+        position: relative;
+        top: -108px;
+    }
+  }

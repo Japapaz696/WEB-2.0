@@ -1,0 +1,21 @@
+body{
+	background: skyblue;
+}
+#conteiner{
+background: white;
+width: 800px;
+margin: 30px auto;
+padding: 10px;
+}
+h1{
+	position: ;
+}
+p{
+	position: ;
+	width: 300px;
+}
+.relativo{
+	border: 1px solid red;
+	position: fixed;
+	left: 500px;
+}
