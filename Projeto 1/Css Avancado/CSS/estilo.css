@@ -1,0 +1,13 @@
+@charset "UTF-8";
+*{
+    border: 1px solid black;
+}
+li>a{
+    color: aqua;
+}
+a{
+    color: red;
+}
+h1~p{
+    color: gray;
+}
