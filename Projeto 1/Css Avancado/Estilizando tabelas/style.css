@@ -1,0 +1,20 @@
+@charset "UTF-8";
+table{
+    width: 600px;
+    text-align: center;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 5px;
+}
+th{
+    text-transform: uppercase;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid black;
+}
+.alternado:hover{
+    background-color: rgb(152, 218, 218);
+}
+.numero{
+    text-align: right;
+}
