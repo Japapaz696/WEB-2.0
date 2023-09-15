@@ -7,29 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Estilizando Formularios</h2>
-    <fieldset> <legend>Detalhes de Contato</legend>
-            <label for="nome">Nome:</label> 
-            <input type="text" for="nome" id="nome">
-            <label for="email">E-mail:</label> 
-            <input type="email" for="email" id="email" >
-            <label for="URL">URL:</label> 
-            <input type="url" for="URL" id="URL" >
-    </fieldset>
-    <fieldset> <legend>Comentario</legend>
-        <label for="comentario">Mensagem:</label>
-        <textarea name="text" id="comentario" cols="50" rows="10"></textarea> 
-    </fieldset>
-    <fieldset> <legend>Lenbrar de mim</legend>
-        <div class="radio">
-            <label><input type="radio" name="lembrar" id="sim"> Sim</label>
-            
-        </div>
-        <div class="radio">
-            <label><input type="radio" name="lembrar" id="sim"> Nao</label>
-            
-        </div>
-
-    </fieldset>
+        <fieldset> <legend><img src="imagens/perfil.png" alt=""></legend>
+            <div class="meio">
+                <label for="email">
+                    <input type="email" name="e" id="email" placeholder="Digite seu e-mail">
+                </label>
+                <label for="senha">
+                    <input type="password" name="s" id="senha" placeholder="Digite Sua Senha" class="Senha">
+                </label>
+                <input type="submit" value="Logar" id="logar">
+            </div>
+        </fieldset>
 </body>
 </html>

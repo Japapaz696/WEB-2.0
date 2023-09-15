@@ -1,14 +1,39 @@
 @charset "UTF-8";
+body{
+    background: url(imagens/fundo.jpg) no-repeat top center  ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 fieldset{
-    margin: 10px;
-    padding: 10px;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.589);
+    margin: auto;
 }
 legend{
-    font-weight: bold;
+    text-align: center;
 }
 label{
     display: block;
+    text-align: center;
 }
-input [type=text]{
+input{
     width: 70%;
+    padding: 10px;
+    margin: 10px;
+    text-align:center ;
+    
+}
+#logar{
+    position: relative;  
+    left: 30px;
+    width: 77%;
+    background-color: rgb(240, 79, 20); 
+}
+#senha{
+    background: url(imagens/icone-cadeado.png) no-repeat 10px ;
+}
+#email{
+    background: url(imagens/icone-usuario.png) no-repeat 10px ;
 }
