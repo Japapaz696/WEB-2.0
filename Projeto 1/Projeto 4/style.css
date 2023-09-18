@@ -5,7 +5,7 @@
 }
 #cabecaleo{
     background: #2c4c74 url(imagens/fundo.png) bottom repeat-x;
-    width: 100%;
+    width: 1000;
     height: 270px;
     margin: auto;
 
@@ -14,19 +14,19 @@
     margin: 20px;
     
 }
-#brasil{
+#Mapa{
     float: right;
     position: relative;
     bottom: 150px;
-    right: 50px;
+    left: 41px;
  
 }
 
-li{
+#menu>li{
     position: relative;
     display: inline;
     background: #b10333 url(imagens/divisor.png) no-repeat left center;
-    padding: 10px;
+    padding: 17px;
     margin: -2px;
     text-align: center;
     top: 10px;
@@ -35,13 +35,13 @@ li{
 }
 .primeiro{
     background-image: none;
-    background: #d80d46e3;
+    background: #850429e3;
 }
-li>a{
+#menu>li>a{
     text-decoration: none;
     color: white;
 }
-li>a:hover{
+#menu>li>a:hover{
 color: #69001d;
 }
 #menu{
@@ -53,4 +53,132 @@ color: #69001d;
     margin: auto;
     width: 730px;
     height: 200px;
+}
+#principal{
+  margin: auto;
+
+}
+#meio{
+    width: 300px;
+    float: right;
+    margin: 20px;
+}
+
+#direita{
+    margin-top: 20px;
+    width: 300px;
+    float: right;
+}
+#esquerda{
+    width: 190px;
+    float: right;
+   color: black;
+   margin: 20px;
+   background: url(imagens/fundo-caixa.png);
+   
+}
+#rodape{
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+#Entrevistas{
+    margin: auto;
+    width: 150px;
+    background: url(imagens/fundo-caixa.png);
+
+}
+h3{
+    background: #2c4c74;
+    color: white;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+#nomes{
+    background: white;
+    padding: 10px;
+   
+}
+#nomes>li{
+    padding: 5px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#news{
+    
+    margin: 20px;
+    background: white;
+    padding: 5px;
+    
+
+}
+#email{
+    width: 130px;
+    height: 30px;
+}
+#cadastrar{
+    padding: 5px;
+    background: #b10333;
+    color: white;
+}
+#h{
+    background: #2c4c74;
+    color: white;
+    padding: 6px;
+    margin-top: 10px;
+    margin:20px;
+
+}
+h4{
+    background:#b6224c ;
+    width: 155px;
+    color: white;
+    padding: 2px;
+}
+
+#Destaque{
+    background: url(imagens/fundo-caixa.png);
+    padding: 10px;
+}
+#taxi{
+    width: 270px;
+    border: 2px solid gray;
+}
+.branco{
+    background: white;
+    padding: 5px;
+}
+#Mundo{
+    padding: 10px;
+    margin-top: 20px;
+    background: url(imagens/fundo-caixa.png);
+    
+}
+.tecnologia{
+    width: 120px;
+    float: left;
+
+}
+.links{
+    color: #294c71;
+    float: right;
+}
+P{
+    margin-right: 10px;
+
+}
+.cinza:hover{
+background: rgba(201, 182, 182, 0.575);
+}
+#doutor{
+    background:#b6224c ;
+    width: 270px;
+    color: white;
+    padding: 2px
 }
