@@ -145,33 +145,49 @@ h4{
 #Destaque{
     background: url(imagens/fundo-caixa.png);
     padding: 10px;
+    width: 530px;
+    height: 450px;
 }
 #taxi{
-    width: 270px;
+    width: 450px;
     border: 2px solid gray;
+}
+.branco1{
+    background: white;
+    padding: 5px;
+    width: 500px;
+    height: 400px;
 }
 .branco{
     background: white;
     padding: 5px;
+    width: 500px;
+    height: 350px;
 }
 #Mundo{
     padding: 10px;
     margin-top: 20px;
     background: url(imagens/fundo-caixa.png);
+    width: 530px;
+    height: 400px;
     
 }
 .tecnologia{
-    width: 120px;
+    width: 80px;
     float: left;
 
 }
 .links{
     color: #294c71;
     float: right;
+    right: 250px;
+    position: relative;
 }
 P{
-    margin-right: 10px;
-
+    padding: 20px;
+}
+.cinza{
+    margin: 10px;
 }
 .cinza:hover{
 background: rgba(201, 182, 182, 0.575);
