@@ -9,7 +9,7 @@ body{
     margin: 15px;
 }
 #conteiner{
-    background: #ede9cc;
+    background: #ede9cc url(imagens/bg-container.png) top center repeat-y;
     margin: auto;
     min-width: 740px;
     max-width: 1180px;
@@ -70,4 +70,53 @@ text-indent: -9000px;
     float: right;
     position: relative;
     bottom: 6.6px;
+}
+#menu2{
+    margin-top: 15px;
+    position: relative;
+    left: 85px;
+}
+.depoimento{
+    width: 226px;
+    height: 164px;
+    float: right;
+    position: relative;
+    right: 90px;
+}
+#menu2>ul>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #6e672c;
+    font-size: 15px;
+    padding: 10px;
+    display: block;
+}
+#menu2>ul>li>a:hover{
+    background: #fdf6be ;
+}
+ul#navegacao{
+    float: left;
+}
+ul{
+    list-style: none;
+}
+#area-principal{
+    float: left;
+    width: 50%;
+    background: url(imagens/bg-area-principal.png) top left repeat-x;
+    
+}
+#area-lateral{
+    float: right;
+    width: 50%;
+    background: url(imagens/bg-area-lateral.png) top left repeat-x;
+}
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+    padding: 15px;
+}
+#rodape{
+    clear: both;
+    background: url(imagens/bg-rodape.png);
 }
