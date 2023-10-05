@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body , html{
+    margin: 0;
+    font: 16px ;
+    height: 100%;
+    
+}
+.conteudo{
+    color: #777;
+    text-align: justify;
+    padding: 50px 80px;
+
+}
+.conteudo1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: gray;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.caixa1,.caixa2,.caixa3,.caixa4{
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+}
+.caixa1{
+    background: url(Imagen/imagem1.jpg) ;   
+}
+.caixa2{
+    background-image: url(Imagen/imagem2.jpg) ;
+}
+.caixa3{
+    background-image: url(Imagen/imagem3.jpg) ;
+}
+.caixa4{
+    background-image: url(Imagen/imagem4.jpg);
+}

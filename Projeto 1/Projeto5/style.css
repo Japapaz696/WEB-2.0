@@ -118,5 +118,23 @@ ul{
 }
 #rodape{
     clear: both;
-    background: url(imagens/bg-rodape.png);
+    background: white;
+    padding: 16px;
+    color: #7d7640;
+}
+.img1{
+    width: 130px;
+    float: left;
+}
+.des{
+    padding-left: 170px;
+}
+h2,h3{
+    color: #7d7640;
+}
+.conteudo:hover{
+    background-color: #ede9cc;
+}
+#conteudo2{
+    margin: 10px;
 }
