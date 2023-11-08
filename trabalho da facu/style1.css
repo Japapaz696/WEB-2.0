@@ -18,3 +18,26 @@ h1 {
     position: absolute;
     top: 160px;
 }
+#conteudo{
+    width: 100%;
+    height: 300px;
+    color: #347571;
+   margin: auto;
+  
+}
+.conteudo1{
+    width: 14%;
+    
+    float: left;
+    margin: 28px;
+    padding: 21px;
+}
+img{
+    width: 80%;
+}
+p{
+     font-size: 18px;
+}
+h2{
+    font-size: 31px;
+}
