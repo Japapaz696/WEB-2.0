@@ -5,6 +5,15 @@
         width: 500px;
         margin: auto;
     }
+    h1{
+        position: relative;
+        bottom: 20px;
+    }
+    #conteudo3{
+        margin: 0px;
+        position: relative;
+        bottom: 100px;
+    }
     #conteudo1{
         height: 130px;
         width: 130px;
@@ -24,7 +33,7 @@
         top: 150px;
     }
     #img3{
-        width: 100px;
+        width: 300px;
     }
 }
 @media (min-width: 481px) and (max-width: 627px){
