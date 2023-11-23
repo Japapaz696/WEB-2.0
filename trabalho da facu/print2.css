@@ -121,12 +121,49 @@
     
 }
 @media (min-width: 851px) and (max-width: 1024px){
-    
+    #conteudo1{
+        left: 0px;
+    }
+    #img2{
+        width: 400px;
+        height: 400px;
+        bottom: 930px;
+        right: 0px;
+        left: 100px;
+    }
+    #img3{
+        width: 400px;
+    }
 }
 @media (min-width: 1025px) and (max-width: 1250px){
- 
+    #conteudo1{
+        left: 0px;
+    }
+    #img2{
+        width: 400px;
+        height: 400px;
+        bottom: 980px;
+        right: 400px;
+        left: 0px;
+    }
+    #img3{
+        width: 500px;
+    }
 }
-@media (min-width: 1251x){
+@media (min-width: 1251px){
    
-    
+    #conteudo1{
+        left: 0px;
+    }
+    #img2{
+        width: 400px;
+        height: 400px;
+        bottom: 980px;
+
+        left: -197px;
+    }
+    #img3{
+        width: 500px;
+    }
+
 }
