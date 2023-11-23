@@ -159,7 +159,7 @@
         width: 500px;
     }
 }
-@media (min-width: 1251px){
+@media (min-width: 1251px) and (max-width: 1650px){
    
     #conteudo1{
         left: 0px;
@@ -172,7 +172,7 @@
         left: -197px;
     }
     #img3{
-        width: 350px;
+        width: 550px;
     }
 
 }
