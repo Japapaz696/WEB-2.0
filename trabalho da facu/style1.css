@@ -46,3 +46,16 @@ img:hover{
     background-color: #cad8c2bb;
     border-radius: 20px;
 }
+#rodape{
+    float: left;
+    
+}
+
+#rodape1{
+    background-color: #347571ab;
+    color: #22524e;
+    border-radius: 10px;
+}
+#rodape1 h2{
+    text-align: center;
+}
