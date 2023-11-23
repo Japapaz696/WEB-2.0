@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@media (min-width: 10px) and (max-width: 458px) {
+    #conteudo{
+        height: 300px;
+        width: 100%;
+    }
+    #conteudo1{
+        height: 130px;
+        width: 130px;
+        text-align: center;
+        font-size: 50px;
+        color: #3d6b68;
+        position: relative;
+        left: 30px;
+    }
+    #conteudo2{
+        height:400px;
+        width: 400px;
+        color: #3d6b68;
+        margin: 5px;
+        font-size: 17px;
+        position: relative;
+        top: 150px;
+    }
+    #img3{
+        width: 100px;
+    }
+}
+@media (min-width: 481px) and (max-width: 627px){
+    #conteudo{
+        height: 300px;
+        width: 100%;
+    }
+    #conteudo1{
+        height: 130px;
+        width: 130px;
+        text-align: center;
+        font-size: 50px;
+        color: #3d6b68;
+        position: relative;
+        left: 30px;
+    }
+    #conteudo2{
+        height:400px;
+        width: 400px;
+        color: #3d6b68;
+        margin: 5px;
+        font-size: 17px;
+        position: relative;
+        top: 150px;
+    }
+    #img3{
+        width: 100px;
+    }
+}
+@media (min-width: 459px) and (max-width: 480px){
+    
+}
+@media (min-width: 481px) and (max-width: 627px){
+   
+}
+@media (min-width: 628px) and (max-width: 850px){
+    
+}
+@media (min-width: 851px) and (max-width: 1024px){
+    
+}
+@media (min-width: 1025px) and (max-width: 1250px){
+ 
+}
+@media (min-width: 1251x){
+   
+    
+}
